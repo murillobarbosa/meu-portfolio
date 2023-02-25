@@ -69,6 +69,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  /* margin-top: 13vh; */
 }
 
 /*===== CLASS CSS ===== */
@@ -231,7 +232,7 @@ img {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  /* fill: var(--first-color); */
 }
 
 .home__blob-img {
@@ -320,23 +321,32 @@ img {
 }
 
 .skills__html {
-  width: 14%;
+  width: 13%;
 }
 
 .skills__css {
-  width: 18%;
+  width: 16%;
 }
 
 .skills__js {
-  width: 24%;
+  width: 31%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__java {
+  width: 32%;
+}
+
+.skills__scss{
+  width: 4%;
+}
+
+.skills__py{
+  width: 4%;
 }
 
 .skills__img {
   border-radius: .5rem;
+  margin-top: 13vh;
 }
 
 /* ===== WORK =====*/
